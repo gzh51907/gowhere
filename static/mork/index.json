@@ -1,0 +1,129 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/7c7963c2b74b0f4f19ae3972f75b7f18.jpg_750x200_347ecfa5.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/d7bbc21db442366a882e04ddc984669a.jpg_750x200_85e640d9.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/87a224d0349d94a11e97f31aa1aba4f5.jpg_750x200_1f78af87.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/5cfb89bebe41028d9b6732bcbe959cd6.jpg_750x200_4eb23790.jpg"
+      },{
+        "id": "0005",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/fd8c3e553ad9196058853d015bd67d29.jpg_750x200_2c5b094a.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "广州必游"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "动植物园"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png",
+        "desc": "自然风光"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+        "desc": "一日游"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "泡温泉"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "desc": "亲子游"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b8/c5dcdb58deec2402.png",
+        "desc": "长隆度假区"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+        "desc": "广州塔"
+      }, {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/87/20656da0ac042002.png",
+        "desc": "广州融创"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "score":4.7,
+        "comment":1853,
+        "price":65.9,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/57/579b6c97900745db.water.jpg_200x200_f09770c8.jpg",
+        "title": "橘子洲",
+        "desc": "东方宫殿建筑代表，世界宫殿建筑典范"
+      }, {
+        "id": "0002",
+        "score":4.8,
+        "comment":820,
+        "price":90,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1804/91/917f8ff98ab0bf6fa3.img.jpg_200x200_9e34ba97.jpg",
+        "title": "湖南省森林植物园",
+        "desc": "北京专业级滑雪圣地"
+      }, {
+        "id": "0003",
+        "score":4.3,
+        "comment":1023,
+        "price":70,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1412/68/42da26a54c27a3c237b4d10a61583c36.water.jpg_200x200_a38c904d.jpg",
+        "title": "靖港古镇",
+        "desc": "我爱北京天安门，天安门上太阳升"
+      }, {
+        "id": "0004",
+        "score":4.8,
+        "comment":602,
+        "price":132,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1412/84/59a55aa2632a3104e3c527301def622f.water.jpg_200x200_d5531e22.jpg",
+        "title": "柏乐园",
+        "desc": "中国的荣耀，阳光下的晶莹水滴"
+      }, {
+        "id": "0005",
+        "score":4.2,
+        "comment":532,
+        "price":50,
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1611/20/205db6ee32a4a29ba3.water.jpg_200x200_0ce2204c.jpg",
+        "title": "海立方海洋公园",
+        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/15/66f14e0fd6fbb.jpg_r_640x214_5d69f21d.jpg",
+        "title": "清远周边逛",
+        "desc": "人人都有一双发现美的眼睛，身边的事物最熟悉不过，那你可曾发现了被人遗漏的美？"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/b8/5d599bbdcf8b57.jpg_r_640x214_2ee055e3.jpg",
+        "title": "浮在海上的绿洲",
+        "desc": "南国滨海之城，避寒胜地，有暖暖的阳光，海风习习，吃着海鲜逛逛老街多惬意啊"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/92/580e9ea4f37a1b.jpg_r_640x214_72112761.jpg",
+        "title": "广州必打卡",
+        "desc": "感受现代与传统相融合的广州"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f8/29dfa785277839.jpg_r_640x214_7d051523.jpg",
+        "title": "阳江温泉知多少",
+        "desc": "这里的天空和大海让人心旷神怡，配上舒缓的优美音乐，泡个暖暖的温泉岂不美哉"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1812/47/cbdc44f461db0d.jpg_r_640x214_aab1da76.jpg",
+        "title": "珠江夜游",
+        "desc": "绚烂的霓虹将珠江照亮，跳上一艘游船，沉浸在这醉人的夜色中..."
+      }]
+  }
+}
