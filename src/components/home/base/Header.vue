@@ -5,20 +5,16 @@
             <i class="iconfont icon-sousuo"></i>
             <input type="text" placeholder="输入城市/景点/游玩主体">
         </div>
-        <div class="header-right">
-            <span>广州</span>
+        <router-link tag="div" to="/city" class="header-right">
+            <span>{{this.$store.state.currentCity}}</span>
             <i class="iconfont icon-jiantou"></i>
-        </div>
+        </router-link>
     </div>
 </template>
 
 <script>
 export default {
-    data(){
-        return {
-            
-        }
-    }
+      
 }
 </script>
 

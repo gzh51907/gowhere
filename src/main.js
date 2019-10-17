@@ -1,4 +1,6 @@
 import Vue from 'vue'
+import axios from 'axios'
+import store from './store'
 
 // 引入css样式，可以设置默认路径 在build中 webpack.base.conf.js文件中可以配置，例如@/assets/css = css
 import 'css/iconfont.css'
@@ -18,6 +20,7 @@ Vue.use(VueAwesomeSwiper)
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
