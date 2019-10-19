@@ -13,6 +13,17 @@ export let getHome = () => {
     return axios('static/mock/index.json')
 }
 
+
 export let getCities = () => {
     return axios('static/mock/city.json')
+}
+
+
+export let getDetails = (id) => {
+    return axios(`static/mock/detail/${id}.json`)
+}
+
+
+export let getWeeks = (id) => {
+    return axios(`static/mock/week/${id}.json`)
 }

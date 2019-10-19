@@ -6,7 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
     state: {
         letter: '',
-        currentCity: localStorage.getItem('currentCity') || '广州'
+        currentCity: localStorage.getItem('currentCity') || '广州',
     },
     mutations: {
         changeLetter(state, letter){

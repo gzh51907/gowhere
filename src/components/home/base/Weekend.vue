@@ -1,24 +1,19 @@
 <template>
     <div class="weekend">
         <h4>周末去哪</h4>
-        <div class="week-item" v-for="item in weekendList" :key="item.id">
+        <router-link tag="div" :to="{name: 'Week', params: {id: item.id}}" class="week-item" v-for="item in weekendList" :key="item.id">
             <img :src="item.imgUrl" alt="">
             <div class="product">
                 <p class="product-name">{{item.title}}</p>
                 <p class="product-desc">{{item.desc}}</p>
             </div>
-        </div>
+        </router-link>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['weekendList'],
-    data(){
-        return  {
-            
-        }
-    }
+    props: ['weekendList']
 }
 </script>
 

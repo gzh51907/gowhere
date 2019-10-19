@@ -60,14 +60,23 @@ export default {
             this.weekendList = weekendList
         }
     },
-    created(){
-        this.getData()
-    },
+    // created(){
+    //     // console.log('created 触发了')
+    //     this.getData()
+    // },
     mounted(){
+        // console.log('mounted 触发了')
         this.scroll = new BScroll(this.$refs.wrapper, {
             click: true,
             bounceTime: 300
         })
+    },
+    activated(){ // 页面展示时触发
+        // console.log('home 激活了')
+        this.getData()
+    },
+    deactivated(){ // 页面没有展示时触发
+        // console.log('home 失活了')
     }
 }
 </script>
@@ -79,6 +88,5 @@ export default {
         top .88rem
         left 0
         right 0
-        bottom 0
-
+        bottom 0 
 </style>

@@ -19,11 +19,14 @@ export default {
     data(){
         return {
             swiperOption: {
-                pagination: { el: '.swiper-pagination' },   // 配置分页器，不写会报错
+                pagination: { 
+                    el: '.swiper-pagination',
+                    clickable: true 
+                },   // 配置分页器，不写会报错
                 loop: true,  // 是否轮播
                 autoplay: {
                     delay: 2000, // 是否自动轮播
-                }
+                },
             },
         }
     },

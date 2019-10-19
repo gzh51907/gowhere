@@ -5,7 +5,7 @@
             <span>猜你喜欢</span>
         </div>
         <ul class="fav-list">
-            <li class="fav-item clearfix" v-for="item in dataList" :key="item.id">
+            <router-link tag="li" :to="{name: 'detaillink', params: {id: item.id}}" class="fav-item clearfix" v-for="item in dataList" :key="item.id">
                 <img class="item-img" :src="item.imgUrl" alt="">
                 <div class="item-tag">随买随用</div>
                 <div class="item-info">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 
-            </li>
+            </router-link>
         </ul>
     </div>
 </template>

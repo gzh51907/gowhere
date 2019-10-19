@@ -28,15 +28,15 @@ export default {
         CityList,
         CityAlphabet,
     },
-    created(){
-        this.getData()
-    },
     methods: {
         async getData(){
             let { cities, hotCities } = await getCities()
             this.cities = cities
             this.hotCities = hotCities
         }
+    },
+    activated(){
+        this.getData()
     }
 }
 </script>
